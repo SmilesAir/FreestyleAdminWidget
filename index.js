@@ -30,23 +30,12 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
   _createClass(FreestyleAdminWidget, [{
     key: "render",
     value: function render() {
-      var _this = this;
       return /*#__PURE__*/_react["default"].createElement("div", {
         className: "adminContainer"
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Admin Panel"), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("div", {
         className: "section"
-      }, /*#__PURE__*/_react["default"].createElement("h1", null, "Export and Download All Data"), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("button", {
-        onClick: function onClick() {
-          return _this.exportAndDownloadAllData(false);
-        }
-      }, "Development"), /*#__PURE__*/_react["default"].createElement("button", {
-        onClick: function onClick() {
-          return _this.exportAndDownloadAllData(true);
-        }
-      }, "Production"))), /*#__PURE__*/_react["default"].createElement("div", {
-        className: "section"
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Player Name Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
-        src: "d2mkj2exs79ufw.cloudfront.net",
+        src: "https://d2mkj2exs79ufw.cloudfront.net",
         style: {
           height: "68em",
           border: "0"
@@ -55,12 +44,12 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       })), /*#__PURE__*/_react["default"].createElement("div", {
         className: "section"
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Event Summary Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
-        src: "d1o7r89dcix5uk.cloudfront.net",
+        src: "https://d1o7r89dcix5uk.cloudfront.net",
         allow: "clipboard-write"
       })), /*#__PURE__*/_react["default"].createElement("div", {
         className: "section"
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Event Results Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
-        src: "d508y3x9kgnlw.cloudfront.net",
+        src: "https://d508y3x9kgnlw.cloudfront.net",
         style: {
           height: "45em",
           border: "0"
@@ -69,7 +58,7 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       })), /*#__PURE__*/_react["default"].createElement("div", {
         className: "section"
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Points Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
-        src: "dodpx3saezigi.cloudfront.net",
+        src: "https://dodpx3saezigi.cloudfront.net",
         style: {
           height: "57em",
           border: "0"
@@ -78,9 +67,9 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       })), /*#__PURE__*/_react["default"].createElement("div", {
         className: "section"
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Export All Data to JSON"), /*#__PURE__*/_react["default"].createElement("iframe", {
-        src: "demey0las2y6z.cloudfront.net",
+        src: "https://demey0las2y6z.cloudfront.net",
         style: {
-          height: "57em",
+          height: "45em",
           border: "0"
         },
         allow: "clipboard-write"
