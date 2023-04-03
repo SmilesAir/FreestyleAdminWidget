@@ -37,7 +37,7 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Player Name Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d2mkj2exs79ufw.cloudfront.net",
         style: {
-          height: "68em",
+          height: "90em",
           border: "0"
         },
         allow: "clipboard-write"
@@ -45,6 +45,10 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
         className: "section"
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Event Summary Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d1o7r89dcix5uk.cloudfront.net",
+        style: {
+          height: "5em",
+          border: "0"
+        },
         allow: "clipboard-write"
       })), /*#__PURE__*/_react["default"].createElement("div", {
         className: "section"
@@ -69,7 +73,7 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Export All Data to JSON"), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://demey0las2y6z.cloudfront.net",
         style: {
-          height: "45em",
+          height: "5em",
           border: "0"
         },
         allow: "clipboard-write"
