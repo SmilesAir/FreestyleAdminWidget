@@ -16,13 +16,13 @@ export class FreestyleAdminWidget extends Component {
                         <h1>
                             Player Name Tools
                         </h1>
-                        <iframe src="https://d2mkj2exs79ufw.cloudfront.net" style={{ height: "68em", border: "0" }} allow="clipboard-write"/>
+                        <iframe src="https://d2mkj2exs79ufw.cloudfront.net" style={{ height: "90em", border: "0" }} allow="clipboard-write"/>
                     </div>
                     <div className="section">
                         <h1>
                             Event Summary Tools
                         </h1>
-                        <iframe src="https://d1o7r89dcix5uk.cloudfront.net" allow="clipboard-write"/>
+                        <iframe src="https://d1o7r89dcix5uk.cloudfront.net" style={{ height: "5em", border: "0" }} allow="clipboard-write"/>
                     </div>
                     <div className="section">
                         <h1>
@@ -40,7 +40,7 @@ export class FreestyleAdminWidget extends Component {
                         <h1>
                             Export All Data to JSON
                         </h1>
-                        <iframe src="https://demey0las2y6z.cloudfront.net" style={{ height: "45em", border: "0" }} allow="clipboard-write"/>
+                        <iframe src="https://demey0las2y6z.cloudfront.net" style={{ height: "5em", border: "0" }} allow="clipboard-write"/>
                     </div>
                 </div>
             </div>
