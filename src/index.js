@@ -22,19 +22,19 @@ export class FreestyleAdminWidget extends Component {
                         <h1>
                             Event Summary Tools
                         </h1>
-                        <iframe src="https://d1o7r89dcix5uk.cloudfront.net" style={{ height: "5em", border: "0" }} allow="clipboard-write"/>
+                        <iframe src="https://d1o7r89dcix5uk.cloudfront.net" style={{ height: "8em", border: "0" }} allow="clipboard-write"/>
                     </div>
                     <div className="section">
                         <h1>
                             Event Results Tools
                         </h1>
-                        <iframe src="https://d508y3x9kgnlw.cloudfront.net" style={{ height: "45em", border: "0" }} allow="clipboard-write"/>
+                        <iframe src="https://d508y3x9kgnlw.cloudfront.net" style={{ height: "55em", border: "0" }} allow="clipboard-write"/>
                     </div>
                     <div className="section">
                         <h1>
                             Points Tools
                         </h1>
-                        <iframe src="https://dodpx3saezigi.cloudfront.net" style={{ height: "57em", border: "0" }} allow="clipboard-write"/>
+                        <iframe src="https://dodpx3saezigi.cloudfront.net" style={{ height: "60em", border: "0" }} allow="clipboard-write"/>
                     </div>
                     <div className="section">
                         <h1>
