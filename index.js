@@ -46,7 +46,7 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Event Summary Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d1o7r89dcix5uk.cloudfront.net",
         style: {
-          height: "5em",
+          height: "8em",
           border: "0"
         },
         allow: "clipboard-write"
@@ -55,7 +55,7 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Event Results Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d508y3x9kgnlw.cloudfront.net",
         style: {
-          height: "45em",
+          height: "55em",
           border: "0"
         },
         allow: "clipboard-write"
@@ -64,7 +64,7 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       }, /*#__PURE__*/_react["default"].createElement("h1", null, "Points Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://dodpx3saezigi.cloudfront.net",
         style: {
-          height: "57em",
+          height: "60em",
           border: "0"
         },
         allow: "clipboard-write"
