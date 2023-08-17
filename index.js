@@ -20,60 +20,67 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var _require = require("react-tabs"),
+  Tab = _require.Tab,
+  Tabs = _require.Tabs,
+  TabList = _require.TabList,
+  TabPanel = _require.TabPanel;
 var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
   _inherits(FreestyleAdminWidget, _Component);
   var _super = _createSuper(FreestyleAdminWidget);
   function FreestyleAdminWidget(props) {
+    var _this;
     _classCallCheck(this, FreestyleAdminWidget);
-    return _super.call(this, props);
+    _this = _super.call(this, props);
+    _this.state = {
+      tabIndex: 0
+    };
+    return _this;
   }
   _createClass(FreestyleAdminWidget, [{
+    key: "onTabsSelectedIndexChanged",
+    value: function onTabsSelectedIndexChanged(index) {
+      this.state.tabIndex = index;
+      this.setState(this.state);
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
       return /*#__PURE__*/_react["default"].createElement("div", {
         className: "adminContainer"
-      }, /*#__PURE__*/_react["default"].createElement("h1", null, "Admin Panel"), /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("div", {
-        className: "section"
-      }, /*#__PURE__*/_react["default"].createElement("h1", null, "Player Name Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
+      }, /*#__PURE__*/_react["default"].createElement("h1", null, "Admin Panel"), /*#__PURE__*/_react["default"].createElement(Tabs, {
+        selectedIndex: this.state.tabIndex,
+        onSelect: function onSelect(index) {
+          return _this2.onTabsSelectedIndexChanged(index);
+        }
+      }, /*#__PURE__*/_react["default"].createElement(TabList, null, /*#__PURE__*/_react["default"].createElement(Tab, null, "Names"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Events"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Results"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Points"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Export")), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d2mkj2exs79ufw.cloudfront.net",
         style: {
-          height: "90em",
           border: "0"
         },
         allow: "clipboard-write"
-      })), /*#__PURE__*/_react["default"].createElement("div", {
-        className: "section"
-      }, /*#__PURE__*/_react["default"].createElement("h1", null, "Event Summary Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
+      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d1o7r89dcix5uk.cloudfront.net",
         style: {
-          height: "8em",
           border: "0"
         },
         allow: "clipboard-write"
-      })), /*#__PURE__*/_react["default"].createElement("div", {
-        className: "section"
-      }, /*#__PURE__*/_react["default"].createElement("h1", null, "Event Results Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
-        src: "https://d508y3x9kgnlw.cloudfront.net",
-        style: {
-          height: "55em",
-          border: "0"
-        },
-        allow: "clipboard-write"
-      })), /*#__PURE__*/_react["default"].createElement("div", {
-        className: "section"
-      }, /*#__PURE__*/_react["default"].createElement("h1", null, "Points Tools"), /*#__PURE__*/_react["default"].createElement("iframe", {
+      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://dodpx3saezigi.cloudfront.net",
         style: {
-          height: "60em",
           border: "0"
         },
         allow: "clipboard-write"
-      })), /*#__PURE__*/_react["default"].createElement("div", {
-        className: "section"
-      }, /*#__PURE__*/_react["default"].createElement("h1", null, "Export All Data to JSON"), /*#__PURE__*/_react["default"].createElement("iframe", {
+      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
+        src: "https://d508y3x9kgnlw.cloudfront.net",
+        style: {
+          border: "0"
+        },
+        allow: "clipboard-write"
+      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://demey0las2y6z.cloudfront.net",
         style: {
-          height: "5em",
           border: "0"
         },
         allow: "clipboard-write"
