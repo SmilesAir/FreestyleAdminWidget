@@ -67,13 +67,13 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
         },
         allow: "clipboard-write"
       })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
-        src: "https://dodpx3saezigi.cloudfront.net",
+        src: "https://d508y3x9kgnlw.cloudfront.net",
         style: {
           border: "0"
         },
         allow: "clipboard-write"
       })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
-        src: "https://d508y3x9kgnlw.cloudfront.net",
+        src: "https://dodpx3saezigi.cloudfront.net",
         style: {
           border: "0"
         },

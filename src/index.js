@@ -36,10 +36,10 @@ export class FreestyleAdminWidget extends Component {
                         <iframe src="https://d1o7r89dcix5uk.cloudfront.net" style={{ border: "0" }} allow="clipboard-write"/>
                     </TabPanel>
                     <TabPanel>
-                        <iframe src="https://dodpx3saezigi.cloudfront.net" style={{ border: "0" }} allow="clipboard-write"/>
+                        <iframe src="https://d508y3x9kgnlw.cloudfront.net" style={{ border: "0" }} allow="clipboard-write"/>
                     </TabPanel>
                     <TabPanel>
-                        <iframe src="https://d508y3x9kgnlw.cloudfront.net" style={{ border: "0" }} allow="clipboard-write"/>
+                        <iframe src="https://dodpx3saezigi.cloudfront.net" style={{ border: "0" }} allow="clipboard-write"/>
                     </TabPanel>
                     <TabPanel>
                         <iframe src="https://demey0las2y6z.cloudfront.net" style={{ border: "0" }} allow="clipboard-write"/>
