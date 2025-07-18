@@ -44,6 +44,13 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
       this.setState(this.state);
     }
   }, {
+    key: "getDeprecatedWidget",
+    value: function getDeprecatedWidget() {
+      return /*#__PURE__*/_react["default"].createElement("div", null, /*#__PURE__*/_react["default"].createElement("h2", null, "These tools are now deprecated."), /*#__PURE__*/_react["default"].createElement("div", null, "Please use the new Admin Wizard ", /*#__PURE__*/_react["default"].createElement("a", {
+        href: "https://freestylejudge.com/?startup=adminTools"
+      }, "HERE")));
+    }
+  }, {
     key: "render",
     value: function render() {
       var _this2 = this;
@@ -54,25 +61,31 @@ var FreestyleAdminWidget = /*#__PURE__*/function (_Component) {
         onSelect: function onSelect(index) {
           return _this2.onTabsSelectedIndexChanged(index);
         }
-      }, /*#__PURE__*/_react["default"].createElement(TabList, null, /*#__PURE__*/_react["default"].createElement(Tab, null, "Names"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Events"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Results"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Points"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Export")), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
+      }, /*#__PURE__*/_react["default"].createElement(TabList, null, /*#__PURE__*/_react["default"].createElement(Tab, null, "Admin Wizard"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Names"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Events"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Results"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Points"), /*#__PURE__*/_react["default"].createElement(Tab, null, "Export")), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
+        src: "https://d1z4hgbk90is1e.cloudfront.net",
+        style: {
+          border: "0"
+        },
+        allow: "clipboard-write"
+      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, this.getDeprecatedWidget(), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d2mkj2exs79ufw.cloudfront.net",
         style: {
           border: "0"
         },
         allow: "clipboard-write"
-      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
+      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, this.getDeprecatedWidget(), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d1o7r89dcix5uk.cloudfront.net",
         style: {
           border: "0"
         },
         allow: "clipboard-write"
-      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
+      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, this.getDeprecatedWidget(), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://d508y3x9kgnlw.cloudfront.net",
         style: {
           border: "0"
         },
         allow: "clipboard-write"
-      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, /*#__PURE__*/_react["default"].createElement("iframe", {
+      })), /*#__PURE__*/_react["default"].createElement(TabPanel, null, this.getDeprecatedWidget(), /*#__PURE__*/_react["default"].createElement("iframe", {
         src: "https://dodpx3saezigi.cloudfront.net",
         style: {
           border: "0"
